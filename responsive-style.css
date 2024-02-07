@@ -1,0 +1,49 @@
+@media screen and (min-width: 375px) and (max-width: 645px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        display: flex;
+        position: relative;
+        left: 0px;
+    }
+
+    .navBar{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    a#downloadCV {
+        padding: 0px;
+        border: none;
+    }
+
+    .hamBurger{
+        display: block;
+        margin:10px;
+    }
+
+    .hamBurger i{
+        float: right;
+    }
+    
+}
+
+
+
+@media screen and (min-width:768px) {
+    .hamBurger{
+        display: none;
+    }
+    
+}
