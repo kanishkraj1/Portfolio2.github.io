@@ -9,6 +9,7 @@ function buttonClick(){
       x.style.width = "100%";
       x.style.display = "flex";
       x.flexDirection = "column";
+      x.background = "#EC550F";
 
     } else {
       x.style.display = "none";
