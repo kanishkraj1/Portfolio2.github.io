@@ -8,8 +8,8 @@ function buttonClick(){
       x.style.textAlign = "center";
       x.style.width = "100%";
       x.style.display = "flex";
-      x.flexDirection = "column";
-      x.background = "#EC550F";
+      x.style.flexDirection = "column";
+      x.style.background = "#EC550F";
 
     } else {
       x.style.display = "none";
