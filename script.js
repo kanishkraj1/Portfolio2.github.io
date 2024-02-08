@@ -6,6 +6,6 @@ function buttonClick(){
     }else    
     {    
     
-        menuList.className = "menuOff";    
+        menu.classNamelassName = "menuOff";    
     }    
 }
