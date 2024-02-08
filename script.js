@@ -1,6 +1,5 @@
 function buttonClick(){
-    const menu = document.getElementsByClassName('navBar');
-    const bttn =  document.getElementById('hamButton');
+
     var x = document.getElementById("navID");
     if (x.style.display === "none") {
       x.style.display = "block";     
