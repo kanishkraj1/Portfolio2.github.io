@@ -1,6 +1,11 @@
 function buttonClick(){
     const menu = document.getElementsByClassName('navBar');
     const bttnClick =  document.getElementById('hamButton');
-    document.getElementById('navID').style.display = "none";
-    document.getElementById('navID').style.display = "block";
+    if(menu.className == "menuoff"){
+        menu.className = "menuOn";    
+    }else    
+    {    
+    
+        menuList.className = "menuOff";    
+    }    
 }

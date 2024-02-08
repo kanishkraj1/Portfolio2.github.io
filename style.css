@@ -47,6 +47,16 @@ a{
 
 }
 
+.menuOff     
+{    
+    display: none;    
+}    
+    
+.menuOn    
+{    
+    display: block;    
+}
+
 a:hover{
     color: #EC550F;
     text-shadow: 2px 2px 10px #EC550F;
