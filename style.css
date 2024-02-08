@@ -47,12 +47,12 @@ a{
 
 }
 
-.menuOff     
+.navBar .menuOff     
 {    
     display: none;    
 }    
     
-.menuOn    
+.navBar .menuOn    
 {    
     display: block;    
 }
